@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { MaterialModule } from './material.module';
+import { MaterialModule } from './material';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -11,6 +11,7 @@ import { RecipeListComponent } from './recipe-book/recipe-list/recipe-list.compo
 import { RecipeItemComponent } from './recipe-book/recipe-list/recipe-item/recipe-item.component';
 import { RecipeDetailComponent } from './recipe-book/recipe-detail/recipe-detail.component';
 import { MatIconModule } from '@angular/material/icon';
+import { RecipeAddComponent } from './recipe-book/recipe-add/recipe-add.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +21,7 @@ import { MatIconModule } from '@angular/material/icon';
     RecipeListComponent,
     RecipeItemComponent,
     RecipeDetailComponent,
+    RecipeAddComponent,
   ],
   imports: [
     BrowserModule,

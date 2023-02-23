@@ -1,12 +1,19 @@
 <mat-card>
   <mat-card-header>
-    <mat-card-title> Recepies: </mat-card-title>
+    <!-- set this button to right side of the card */ -->
+    <mat-card-title>
+      Recepies:
+      <button
+        mat-button
+        (click)="openDialog()"
+        style="position: absolute; right: 15px"
+      >
+        Add
+      </button>
+    </mat-card-title>
   </mat-card-header>
   <mat-card-content>
-    <app-recipe-item></app-recipe-item>
-    <app-recipe-item></app-recipe-item>
-    <app-recipe-item></app-recipe-item>
-    <app-recipe-item></app-recipe-item>
+    <div style="height: 8px"></div>
     <app-recipe-item></app-recipe-item>
   </mat-card-content>
 </mat-card>
