@@ -11,5 +11,11 @@ export class ShoppingListComponent {
     new Ingredient('Apples', 5),
     new Ingredient('Tomatoes', 10),
     new Ingredient('Potatoes', 15),
+    new Ingredient('Apples', 5),
+    new Ingredient('Tomatoes', 10),
+    new Ingredient('Potatoes', 15),
+    new Ingredient('Apples', 5),
+    new Ingredient('Tomatoes', 10),
+    new Ingredient('Potatoes', 15),
   ];
 }
