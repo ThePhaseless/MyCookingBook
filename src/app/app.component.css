@@ -1,13 +1,13 @@
 .footer {
+  position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
   margin: 15px;
-  flex: 0 1 auto;
+  z-index: 1;
 }
 .content {
   flex: 1 1 auto;
-  overflow: auto;
 }
 .main {
   height: 100%;

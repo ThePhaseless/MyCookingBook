@@ -1,10 +1,15 @@
-<div *ngFor="let ingredient of ingredients" style="height: fit-content">
-  <mat-card style="margin: 15px">
-    <mat-card-header>
-      <mat-card-title>{{ ingredient.name }}</mat-card-title>
-    </mat-card-header>
-    <mat-card-content>
-      <p>Amount: {{ ingredient.amount }}</p>
-    </mat-card-content>
-  </mat-card>
-</div>
+<mat-expansion-panel>
+  <mat-expansion-panel-header>Shopping List</mat-expansion-panel-header>
+  <div style="height: 100px" class="solution">
+    <div *ngFor="let ingredient of ingredients">
+      <mat-card style="margin: 15px">
+        <mat-card-header>
+          <mat-card-title>{{ ingredient.name }}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <p>Amount: {{ ingredient.amount }}</p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</mat-expansion-panel>
