@@ -12,6 +12,7 @@ import { RecipeItemComponent } from './recipe-book/recipe-list/recipe-item/recip
 import { RecipeDetailComponent } from './recipe-book/recipe-detail/recipe-detail.component';
 import { MatIconModule } from '@angular/material/icon';
 import { RecipeAddComponent } from './recipe-book/recipe-add/recipe-add.component';
+import { RecipeDescComponent } from './recipe-book/recipe-detail/recipe-desc/recipe-desc.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +23,7 @@ import { RecipeAddComponent } from './recipe-book/recipe-add/recipe-add.componen
     RecipeItemComponent,
     RecipeDetailComponent,
     RecipeAddComponent,
+    RecipeDescComponent,
   ],
   imports: [
     BrowserModule,

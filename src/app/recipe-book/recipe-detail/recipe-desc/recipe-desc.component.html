@@ -1,0 +1,14 @@
+{{ randomText }}
+Try clicking on the radio button. It should be disabled, but it's not.
+<br />
+<mat-radio-button
+  [disabled]="!funDisabled"
+  (mouseenter)="funDisabled = !funDisabled"
+  (mouseleave)="funDisabled = !funDisabled"
+></mat-radio-button>
+<br />
+
+<mat-form-field class="example-full-width">
+  <mat-label>Random text text</mat-label>
+  <input matInput [(ngModel)]="randomText" placeholder="idk" />
+</mat-form-field>

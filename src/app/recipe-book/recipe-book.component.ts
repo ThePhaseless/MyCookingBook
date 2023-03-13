@@ -5,4 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './recipe-book.component.html',
   styleUrls: ['./recipe-book.component.css'],
 })
-export class RecipeBookComponent {}
+export class RecipeBookComponent {
+  opened = false;
+  constructor() {
+    setTimeout(() => {
+      this.opened = true;
+    }, 2000);
+  }
+}
