@@ -1,6 +1,8 @@
-# AngularTutorial
+# MyCookingBook
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
+I've created this webapp as a project for learning angular from udemy course. I'll try to expand it beyond that course and actively maintain it, when needed.
+
+Below rest of the original readme:
 
 ## Development server
 
