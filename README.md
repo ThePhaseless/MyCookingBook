@@ -1,6 +1,6 @@
 # MyCookingBook
 
-I've created this webapp as a project for learning angular from udemy course. I'll try to expand it beyond that course and actively maintain it, when needed.
+I've created this webapp as a project for learning angular from udemy course. ~~I'll try to expand it beyond that course and actively maintain it, when needed.~~ Development stale, switching to flutter... 
 
 Below rest of the original readme:
 
